@@ -23,9 +23,9 @@ body{
 #header{
 	
     width: 100%;
-    height: 100vh;
 	background-size: cover;
 	background-position: center;	
+    padding-bottom: 300px;
 }
 
 .container{
@@ -114,6 +114,43 @@ nav ul li a:hover::after{
     margin-top: 10px;
 }
 
+/* about */
+
+.about-me-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: -100px;
+    height: 900px;
+}
+
+.about-col-1{
+    padding-right: 30px;
+}
+
+.pfp-2{
+    width: 700px;
+    height: 700px;
+    object-fit: contain;
+}
+
+.about-col-2{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.about-me-title{
+    text-align: center;
+    font-size: 80px;
+}
+
+.about-me-text{
+    margin-top: 60px;
+    width: 700px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
 @media screen and (max-width: 1300px){
     .introduction-container{
         margin-left: 250px;
@@ -121,6 +158,17 @@ nav ul li a:hover::after{
     .introduction-text-container{
         padding: 90px;
         margin-top: 120px;
+    }
+
+    .pfp-2{
+        margin-top: 90px;
+        margin-left: 40px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .about-me-text{
+        width: 600px;
     }
 }
 
@@ -150,6 +198,22 @@ nav ul li a:hover::after{
         width: 100%;
         margin-left: 0px;
     }
+    .about-me-container{
+        flex-wrap: wrap;
+        margin-top: -400px;
+        padding-bottom: 500px;
+        margin-left: 0px;
+    }
+    .about-col-2{
+        margin-top: 0px;
+    }
+    .about-me-title{
+        font-size: 70px;
+    }
+    .about-me-text{
+        margin-top: -0px;
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -160,17 +224,14 @@ nav ul li a:hover::after{
         height: 450px;
         width: 450px;
     }
+    .about-me-title{
+        font-size: 60px;
+        margin-top: 10px;
+    }
+    .about-me-text{
+        margin-top: -0px;
+        font-size: 16px;
+        width: 400px;
+        line-height: 25px;
+    }
 }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-h6{
-    margin: 0;
-}
-  
-p {
-    margin: 0;
-}
-  
