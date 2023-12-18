@@ -352,14 +352,14 @@ form .btn2{
 
 @media screen and (max-width: 600px){
     .logo-container{
-        margin-top: 0px;
+        margin-top: 10px;
     }
     nav{
         font-size: 11px;
         padding-top: 5px;
     }
     #sidemenu{
-        margin-top: 20px;
+        margin-top: -10px;
     }
     .pfp-1{
         height: 350px;
