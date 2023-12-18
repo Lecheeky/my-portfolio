@@ -352,7 +352,7 @@ form .btn2{
 
 @media screen and (max-width: 600px){
     .logo-container{
-        margin-top: 7px;
+        margin-top: 0px;
     }
     nav{
         font-size: 11px;
