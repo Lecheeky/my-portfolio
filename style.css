@@ -358,13 +358,18 @@ form .btn2{
         font-size: 11px;
         padding-top: 5px;
     }
+    #sidemenu{
+        margin-top: 20px;
+    }
     .pfp-1{
         height: 350px;
         width: 350px;
     }
     .job-title{
+        font-size: 20px;
         margin-left: 150px;
         width: 300px;
+        padding-bottom: 15px;
     }
     .about-me-title{
         font-size: 60px;
