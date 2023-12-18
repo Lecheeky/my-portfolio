@@ -356,10 +356,11 @@ form .btn2{
     }
     nav{
         font-size: 11px;
-        padding-top: 5px;
+        padding-top: -5px;
     }
     #sidemenu{
         margin-top: -10px;
+        margin-right: -20px;
     }
     .pfp-1{
         height: 350px;
